@@ -1,4 +1,4 @@
-.App {
+/* .App {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,4 +39,72 @@ input {
   font-size: 1rem;
   border: 1px solid #61fc8f;
   border-radius: 5px;
+} */
+
+/* General App Styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d1cfcf;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 3rem;
+  color: #006eff;
+}
+
+/* Button Styles */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #8b01db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6dffff;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #61fc8f;
+  border-radius: 5px;
+}
+
+/* Todo List Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #61fc8f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #f1f1f1;
 }
